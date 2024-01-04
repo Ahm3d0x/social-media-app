@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>like</title>
+  <!-- HTML -->
+  <!-- Custom Styles -->
+  <link rel="scalesheet" href="media.css" />
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <div class="back">
+    <img src="pictures/1.ico" alt="" />
+  </div>
+  <div class="web">
+    <h1 style="padding: 14px 0px">like </h1>
+  </div>
+  <br /><br />
+  <div class="dad">
+    <div class="name">
+      <input class="name1" type="email" name="" value="@like.com" minlength="8" maxlength="20" placeholder="رقم اهاتف او البريد الإلكتروني " required autofocus />
+    </div>
+    <br />
+    <div class="pass">
+      <input type="password" id="" class="pass1" name="" value="" minlength="8" maxlength="20" placeholder="كلمة المرور " required />
+    </div>
+  </div>
+  <br />
+  <button type="submit" class="submit" onclick="ahmed()">تسجيل الدخول</button>
+  <br />
+  <button class="link" onclick="document.location='email_forget.html'">هل نسيت كلمة السر ؟</button>
+  <br />
+  <button class="new" onclick="document.location='new.html'">انشاء حساب جديد</button>
+  </div>
+  <style>
+    :root {
+      --background: #12131E;
+      --left: 20%;
+      --width: 60%;
+      --heigh: 40px;
+      --font: 15px;
+      --background1: #43A4B6;
+      --padding: 0px 10px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+    }
+
+    body {
+      background-color: var(--background);
+      position: relative;
+    }
+
+    .back {
+      position: absolute;
+      left: 30%;
+      margin-top: 10px;
+    }
+
+    img {
+      width: 4rem;
+    }
+
+    h1 {
+      font-family: 'Times New Roman', Times, serif;
+      font-weight: bold;
+      color: var(--background1);
+    }
+
+    .web {
+      position: absolute;
+      left: 50%;
+      margin-top: 10px;
+    }
+
+    .name input {
+      position: absolute;
+      left: var(--left);
+      margin-top: 40px;
+      direction: ltr;
+      font-size: var(--font);
+      width: var(--width);
+      height: var(--heigh);
+
+      border-radius: 5px;
+      padding: var(--padding);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .pass input {
+      position: absolute;
+      left: var(--left);
+      margin-top: 70px;
+      direction: ltr;
+      font-size: var(--font);
+      width: var(--width);
+      height: var(--heigh);
+
+      border-radius: 5px;
+      padding: var(--padding);
+    }
+
+    .submit {
+      background-color: var(--background1);
+      position: absolute;
+      left: var(--left);
+      margin-top: 100px;
+      direction: rtl;
+      font-size: var(--font);
+      width: var(--width);
+      height: var(--heigh);
+      border: var(--background1) solid 3px;
+      border-radius: 5px;
+      padding: var(--padding);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+
+    :hover.submit {
+      opacity: .5;
+    }
+
+    .link {
+      background-color: var(--background1);
+      position: absolute;
+      left: var(--left);
+      margin-top: 130px;
+      direction: rtl;
+      font-size: var(--font);
+      width: var(--width);
+      height: var(--heigh);
+      border: var(--background1) solid 3px;
+      border-radius: 5px;
+      padding: var(--padding);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    :hover.link {
+      opacity: .5;
+    }
+
+    .new {
+      background-color: var(--background1);
+      position: absolute;
+      left: var(--left);
+      margin-top: 160px;
+      direction: rtl;
+      font-size: var(--font);
+      width: var(--width);
+      height: var(--heigh);
+      border: var(--background1) solid 3px;
+      border-radius: 5px;
+      padding: var(--padding);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    :hover.new {
+      opacity: .5;
+    }
+
+    @media (min-width: 400px) and (max-width: 600px) {
+      :root {
+        --background: #12131E;
+        --left: 25%;
+        --width: 50%;
+        --heigh: 40px;
+        --font: 20px;
+        --background1: #43A4B6;
+        --padding: 0px 10px;
+      }
+
+      .back {
+        position: absolute;
+        left: 35%;
+        margin-top: 10px;
+      }
+
+      img {
+        width: 4rem;
+      }
+    }
+
+    @media (min-width: 601px) and (max-width: 800px) {
+      :root {
+        --background: #12131E;
+        --left: 30%;
+        --width: 40%;
+        --heigh: 40px;
+        --font: 20px;
+        --background1: #43A4B6;
+        --padding: 0px 10px;
+      }
+
+      .back {
+        position: absolute;
+        left: 40%;
+        margin-top: 10px;
+      }
+
+      img {
+        width: 4rem;
+      }
+    }
+
+    @media (min-width: 801px) and (max-width: 1000px) {
+      :root {
+        --background: #12131E;
+        --left: 35%;
+        --width: 40%;
+        --heigh: 40px;
+        --font: 20px;
+        --background1: #43A4B6;
+        --padding: 0px 10px;
+      }
+
+      .back {
+        position: absolute;
+        left: 45%;
+        margin-top: 10px;
+      }
+
+      img {
+        width: 4rem;
+      }
+
+      .web {
+        position: absolute;
+        left: 55%;
+        margin-top: 10px;
+      }
+    }
+
+    @media (min-width: 1001px) and (max-width: 1200px) {
+      :root {
+        --background: #12131E;
+        --left: 40%;
+        --width: 30%;
+        --heigh: 40px;
+        --font: 20px;
+        --background1: #43A4B6;
+        --padding: 0px 10px;
+      }
+
+      .back {
+        position: absolute;
+        left: 50%;
+        margin-top: 10px;
+      }
+
+      img {
+        width: 4rem;
+      }
+
+      .web {
+        position: absolute;
+        left: 58%;
+        margin-top: 10px;
+      }
+    }
+
+    @media (min-width: 1201px) and (max-width: 1400px) {
+      :root {
+        --background: #12131E;
+        --left: 35%;
+        --width: 30%;
+        --heigh: 40px;
+        --font: 20px;
+        --background1: #43A4B6;
+        --padding: 0px 10px;
+      }
+
+      .back {
+        position: absolute;
+        left: 45%;
+        margin-top: 10px;
+      }
+
+      img {
+        width: 4rem;
+      }
+
+      .web {
+        position: absolute;
+        left: 50%;
+        margin-top: 10px;
+      }
+    }
+  </style>
+  <script src="index.js" type="text/javascript" charset="utf-8"></script>
+</body>
+
+</html>

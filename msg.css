@@ -1,0 +1,472 @@
+:root {
+
+  --background: #12131E;
+  --width: 33.3%;
+  --width1:350px;
+  --widthimge:80px;
+  --rightimge:0px;
+  --right:5px;
+  --heigh: 40px;
+  --heigh1: 70px;
+  --font: 40px;
+  --background1: #636BCE;
+  --background2: #4B55C4;
+  --padding: 15px;
+  --top:0px;
+  --radius:30%;
+}
+
+* {
+  margin: 0px;
+  box-sizing: border-box;
+
+}
+
+body{
+  background-color: #344870;
+}
+
+
+nav {
+  
+  width: 100%;
+  height: var(--heigh);
+  top: var(--top);
+  padding: 3px;
+  background-color: var(--background1);
+  
+  
+}
+
+nav .chat {
+  height: var(--heigh);
+  width:  var(--width);
+  position: absolute;
+  top: var(--top);
+  right: 0px;
+  background-color: #4E5282;
+  border-color: white;
+}
+
+nav .stat {
+  height: var(--heigh);
+  width: var(--width);
+  position: absolute;
+  top: var(--top);
+  left: 33.4%;
+  background-color: #4E5282;
+  border-color: white;
+}
+
+
+nav .stin {
+  height: var(--heigh);
+  width: var(--width);
+  position: absolute;
+  top: var(--top);
+  left: 0%;
+  background-color: #4E5282;
+  border-color: white;
+}
+
+
+ 
+.chat1 {
+  width: var(--width1);
+  height: var(--heigh1);
+  position: absolute;
+  top: 45px;
+  right: var(--right);
+  border-top-right-radius: var(--radius);
+  border-bottom-right-radius: var(--radius);
+  background-color: var(--background2);
+}
+
+.chat1 a {
+  position: absolute;
+  padding: var(--padding);
+  width: var(--width1);
+  height: var(--heigh1);
+  border-top-right-radius: var(--radius);
+  border-bottom-right-radius: var(--radius);
+  background-color: var(--background2);
+  font-size: var(--font);
+  font-weight: bold;
+  text-decoration: none;
+  text-align: left;
+}
+
+
+
+.chat1 .image {
+  position: absolute;
+  height: var(--heigh1);
+  width: var(--widthimge);
+  right: var(--rightimge);
+  border-bottom-right-radius: var(--radius);
+  border-top-right-radius: var(--radius);
+  background-color: var(--background2);
+  overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+ 
+.chat2 {
+  width: var(--width1);
+  height: var(--heigh1);
+  position: absolute;
+  top: 120px;
+  right: var(--right);
+  border-top-right-radius: var(--radius);
+  border-bottom-right-radius: var(--radius);
+  background-color: var(--background2);
+}
+
+.chat2 a {
+  position: absolute;
+  padding: var(--padding);
+  width: var(--width1);
+  height: var(--heigh1);
+  border-top-right-radius: var(--radius);
+  border-bottom-right-radius: var(--radius);
+  background-color: var(--background2);
+  font-size: var(--font);
+  font-weight: bold;
+  text-decoration: none;
+  text-align: left;
+}
+
+
+
+    
+
+.chat2 .image {
+  position: absolute;
+  height: var(--heigh1);
+  width: var(--widthimge);
+  right: var(--rightimge);
+  border-bottom-right-radius: var(--radius);
+  border-top-right-radius: var(--radius);
+  background-color: var(--background2);
+  overflow: hidden;
+}
+
+
+
+
+
+
+ 
+.chat3 {
+  width: var(--width1);
+  height: var(--heigh1);
+  position: absolute;
+  top: 195px;
+  right: var(--right);
+  border-top-right-radius: var(--radius);
+  border-bottom-right-radius: var(--radius);
+  background-color: var(--background2);
+}
+
+.chat3 a {
+  position: absolute;
+  padding: var(--padding);
+  width: var(--width1);
+  height: var(--heigh1);
+  border-top-right-radius: var(--radius);
+  border-bottom-right-radius: var(--radius);
+  background-color: var(--background2);
+  font-size: var(--font);
+  font-weight: bold;
+  text-decoration: none;
+  text-align: left;
+}
+
+
+
+.chat3 .image {
+  position: absolute;
+  height: var(--heigh1);
+  width: var(--widthimge);
+  right: var(--rightimge);
+  border-bottom-right-radius: var(--radius);
+  border-top-right-radius: var(--radius);
+  background-color: var(--background2);
+  overflow: hidden;
+}
+
+
+
+
+
+
+ 
+.chat4 {
+  width: var(--width1);
+  height: var(--heigh1);
+  position: absolute;
+  top: 270px;
+  right: var(--right);
+  border-top-right-radius: var(--radius);
+  border-bottom-right-radius: var(--radius);
+  background-color: var(--background2);
+}
+
+.chat4 a {
+  position: absolute;
+  padding: var(--padding);
+  width: var(--width1);
+  height: var(--heigh1);
+  border-top-right-radius: var(--radius);
+  border-bottom-right-radius: var(--radius);
+  background-color: var(--background2);
+  font-size: var(--font);
+  font-weight: bold;
+  text-decoration: none;
+  text-align: left;
+}
+
+
+
+.chat4 .image {
+  position: absolute;
+  height: var(--heigh1);
+  width: var(--widthimge);
+  right: var(--rightimge);
+  border-bottom-right-radius: var(--radius);
+  border-top-right-radius: var(--radius);
+  background-color: var(--background2);
+  overflow: hidden;
+}
+
+
+
+
+
+
+ 
+.chat5 {
+  width: var(--width1);
+  height: var(--heigh1);
+  position: absolute;
+  top: 345px;
+  right: var(--right);
+  border-top-right-radius: var(--radius);
+  border-bottom-right-radius: var(--radius);
+  background-color: var(--background2);
+}
+
+.chat5 a {
+  position: absolute;
+  padding: var(--padding);
+  width: var(--width1);
+  height: var(--heigh1);
+  border-top-right-radius: var(--radius);
+  border-bottom-right-radius: var(--radius);
+  background-color: var(--background2);
+  font-size: var(--font);
+  font-weight: bold;
+  text-decoration: none;
+  text-align: left;
+}
+
+
+
+.chat5 .image {
+  position: absolute;
+  height: var(--heigh1);
+  width: var(--widthimge);
+  right: var(--rightimge);
+  border-bottom-right-radius: var(--radius);
+  border-top-right-radius: var(--radius);
+  background-color: var(--background2);
+  overflow: hidden;
+}
+
+
+
+
+
+
+ 
+.chat6 {
+  width: var(--width1);
+  height: var(--heigh1);
+  position: absolute;
+  top: 420px;
+  right: var(--right);
+  border-top-right-radius: var(--radius);
+  border-bottom-right-radius: var(--radius);
+  background-color: var(--background2);
+}
+
+.chat6 a {
+  position: absolute;
+  padding: var(--padding);
+  width: var(--width1);
+  height: var(--heigh1);
+  border-top-right-radius: var(--radius);
+  border-bottom-right-radius: var(--radius);
+  background-color: var(--background2);
+  font-size: var(--font);
+  font-weight: bold;
+  text-decoration: none;
+  text-align: left;
+}
+
+
+
+.chat6 .image {
+  position: absolute;
+  height: var(--heigh1);
+  width: var(--widthimge);
+  right: var(--rightimge);
+  border-bottom-right-radius: var(--radius);
+  border-top-right-radius: var(--radius);
+  background-color: var(--background2);
+  overflow: hidden;
+}
+
+
+
+
+
+
+ 
+.chat7 {
+  width: var(--width1);
+  height: var(--heigh1);
+  position: absolute;
+  top: 495px;
+  right: var(--right);
+  border-top-right-radius: var(--radius);
+  border-bottom-right-radius: var(--radius);
+  background-color: var(--background2);
+}
+
+.chat7 a {
+  position: absolute;
+  padding: var(--padding);
+  width: var(--width1);
+  height: var(--heigh1);
+  border-top-right-radius: var(--radius);
+  border-bottom-right-radius: var(--radius);
+  background-color: var(--background2);
+  font-size: var(--font);
+  font-weight: bold;
+  text-decoration: none;
+  text-align: left;
+}
+
+
+
+.chat7 .image {
+  position: absolute;
+  height: var(--heigh1);
+  width: var(--widthimge);
+  right: var(--rightimge);
+  border-bottom-right-radius: var(--radius);
+  border-top-right-radius: var(--radius);
+  background-color: var(--background2);
+  overflow: hidden;
+}
+
+
+
+
+
+
+ 
+.chat8 {
+  width: var(--width1);
+  height: var(--heigh1);
+  position: absolute;
+  top: 570px;
+  right: var(--right);
+  border-top-right-radius: var(--radius);
+  border-bottom-right-radius: var(--radius);
+  background-color: var(--background2);
+}
+
+.chat8 a {
+  position: absolute;
+  padding: var(--padding);
+  width: var(--width1);
+  height: var(--heigh1);
+  border-top-right-radius: var(--radius);
+  border-bottom-right-radius: var(--radius);
+  background-color: var(--background2);
+  font-size: var(--font);
+  font-weight: bold;
+  text-decoration: none;
+  text-align: left;
+}
+
+
+
+.chat8 .image {
+  position: absolute;
+  height: var(--heigh1);
+  width: var(--widthimge);
+  right: var(--rightimge);
+  border-bottom-right-radius: var(--radius);
+  border-top-right-radius: var(--radius);
+  background-color: var(--background2);
+  overflow: hidden;
+}
+
+
+
+
+
+
+ 
+.chat9 {
+  width: var(--width1);
+  height: var(--heigh1);
+  position: absolute;
+  top: 645px;
+  right: var(--right);
+  border-top-right-radius: var(--radius);
+  border-bottom-right-radius: var(--radius);
+  background-color: var(--background2);
+}
+
+.chat9 a {
+  position: absolute;
+  padding: var(--padding);
+  width: var(--width1);
+  height: var(--heigh1);
+  border-top-right-radius: var(--radius);
+  border-bottom-right-radius: var(--radius);
+  background-color: var(--background2);
+  font-size: var(--font);
+  font-weight: bold;
+  text-decoration: none;
+  text-align: left;
+}
+
+
+
+.chat9 .image {
+  position: absolute;
+  height: var(--heigh1);
+  width: var(--widthimge);
+  right: var(--rightimge);
+  border-bottom-right-radius: var(--radius);
+  border-top-right-radius: var(--radius);
+  background-color: var(--background2);
+  overflow: hidden;
+}
+
+
+
+
+
